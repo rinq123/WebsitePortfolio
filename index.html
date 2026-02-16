@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marco's Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav>
+    <div class="logo">Marco's Portfolio</div>
+
+    <div class="nav-actions">
+      <button id="dark-mode-toggle" type="button">Toggle Dark Mode</button>
+    </div>
+
+    <button
+      class="hamburger"
+      aria-controls="nav-links"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul id="nav-links" class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <header class="hero">
+      <div class="hero-avatar-wrap">
+        <img
+          src="profile.jpg"
+          alt="Profile photo"
+          class="hero-avatar"
+          onerror="this.onerror=null;this.src='avatar-placeholder.svg';"
+        />
+      </div>
+      <div class="hero-content">
+        <h1>Hey, I'm Marco.</h1>
+        <p>I'm a junior developer learning by building projects and improving one step at a time.</p>
+      </div>
+
+      <div class="cv-actions">
+        <a
+          class="cv-btn cv-btn--primary"
+          href="assets/cv/marco-software-dev-cv.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+          Download Software Dev CV
+        </a>
+        <div class="cv-secondary-links">
+          <a href="assets/cv/marco-qa-cv.pdf" target="_blank" rel="noopener">QA CV</a>
+          <a href="assets/cv/marco-admin-cv.pdf" target="_blank" rel="noopener">Admin CV</a>
+        </div>
+      </div>
+
+      <p class="hero-role-note">Also open to QA and admin roles.</p>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div id="about-content">
+        <p class="about-summary">Junior software developer focused on practical web projects and steady delivery.</p>
+        <ul class="about-points">
+          <li>Build full-stack JavaScript projects with Node.js, Express, MongoDB, and Firebase.</li>
+          <li>Apply a QA mindset from healthcare operations where data accuracy and compliance are critical.</li>
+          <li>Improve each release through iteration, bug-fixing, and clearer front-end UX.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Node.js</span>
+        <span>Express</span>
+        <span>MongoDB</span>
+        <span>Firebase</span>
+        <span>Git/GitHub</span>
+        <span>Unity(C#)</span>
+        <span>Kotlin</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="card-container">
+        <div class="card">
+          <a class="card-link" href="https://github.com/rinq123/CatGallery" target="_blank" rel="noopener">
+            <h3>Cat Gallery Web App</h3>
+            <p class="summary">Full-stack web app with secure authentication and social features.</p>
+            <p class="stack">Tech: HTML, CSS, JavaScript, Node.js, Express, MongoDB</p>
+          </a>
+        </div>
+        <div class="card">
+          <a class="card-link" href="https://github.com/rinq123/Gym-Club-Scoring" target="_blank" rel="noopener">
+            <h3>Eclipse Invitational Scoring (Gym Club Scoring)</h3>
+            <p class="summary">Frontend-only scoring system with Firebase Auth and Firestore.</p>
+            <p class="stack">Tech: HTML, CSS, JavaScript, Firebase</p>
+          </a>
+        </div>
+        <div class="card">
+          <div class="card-link card-link--disabled">
+            <h3>Project Three</h3>
+            <p class="summary">TBD</p>
+            <p class="stack">Tech: TBD</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <article class="cv-entry">
+        <h3>Clinic Coordinator & Receptionist - Northampton General Hospital</h3>
+        <p class="cv-meta">Nov 2023 - Present | Northampton, UK</p>
+        <ul>
+          <li>Processed and validated records for 50+ patients per shift, maintaining 100% data accuracy.</li>
+          <li>Organized clinic schedules and workflow handoffs, reducing delays across daily operations.</li>
+          <li>Enforced GDPR and NHS data-handling standards, keeping sensitive records compliant and secure.</li>
+          <li>Resolved front-desk patient and staff queries quickly during peak hours in a high-pressure setting.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education">
+      <h2>Education & Certifications</h2>
+      <article class="cv-entry">
+        <h3>BSc (Hons) Games Programming - University of Northampton</h3>
+        <p class="cv-meta">2022 - 2024</p>
+        <p>Key projects included AI Diplomacy Systems, a Social Networking Mobile App, and Maze Navigation AI.</p>
+      </article>
+      <article class="cv-entry">
+        <h3>A-Levels (AAA) - Abbeyfield School Sixth Form</h3>
+        <p class="cv-meta">2019 - 2022</p>
+      </article>
+      <article class="cv-entry">
+        <h3>Languages</h3>
+        <p class="cv-meta">English (fluent), Tagalog (fluent)</p>
+      </article>
+    </section>
+
+    <footer id="contact">
+      <h2>Contact</h2>
+      <p>Want to work together or see more? Reach out:</p>
+      <p class="contact-email">seanmarcobonifacio@gmail.com</p>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/sean-marco-bonifacio-538286253/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/rinq123" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
