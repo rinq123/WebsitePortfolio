@@ -117,7 +117,6 @@ If deployment ever fails:
 - Color contrast handled for both light and dark themes
 
 ## Current Known Gaps
-- `Project Three` is placeholder content (`TBD`)
 - LinkedIn automated checks may return anti-bot status even when link works in browser
 
 ## Validation Checklist (Pre-Update)

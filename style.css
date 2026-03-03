@@ -497,9 +497,7 @@ body.dark-mode button:not(#dark-mode-toggle):not(.hamburger) {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-  display: flex;
-  flex-direction: column;
-  gap:0.6rem;
+  transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
 .card .summary {
