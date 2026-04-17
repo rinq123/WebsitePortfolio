@@ -66,56 +66,13 @@ section{
   margin-top: clamp(4.5rem, 9vw, 7rem);
 }
 
-#experience,
-#education {
-  margin-top: clamp(2.25rem, 5vw, 3.5rem);
-}
 
-.cv-entry {
-  margin-top: 0.75rem;
-  padding: 0.8rem 0.95rem;
-  border-radius: 10px;
-  background: rgba(10, 37, 64, 0.03);
-  border: 1px solid rgba(10, 37, 64, 0.14);
-  box-shadow: none;
-  position: relative;
-  overflow: hidden;
-}
 
-.cv-entry h3 {
-  margin: 0;
-}
 
-#experience .cv-entry::before,
-#education .cv-entry::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 3px;
-  background: var(--primary-bg);
-  opacity: 0.6;
-}
 
-.cv-entry p,
-.cv-entry ul {
-  margin: 0.4rem 0 0;
-}
 
-.cv-entry ul {
-  padding-left: 1.05rem;
-}
 
-.cv-entry ul li {
-  margin: 0.24rem 0;
-  line-height: 1.45;
-}
 
-.cv-meta {
-  font-size: 0.88rem;
-  color: #415269;
-}
 
 .reveal {
   opacity: 1;
@@ -429,18 +386,6 @@ body.dark-mode .hero-content h1 {
 body.dark-mode .hero-content p {
   color: var(--dark-text);
 }
-body.dark-mode .cv-entry {
-  background: rgba(255, 255, 255, 0.03);
-  border-color: rgba(203, 213, 225, 0.16);
-  box-shadow: none;
-}
-body.dark-mode .cv-meta {
-  color: #b3c3d8;
-}
-body.dark-mode #experience .cv-entry::before,
-body.dark-mode #education .cv-entry::before {
-  background: #6ea6de;
-}
 body.dark-mode a {
   color: var(--accent);
 }
@@ -503,6 +448,12 @@ body.dark-mode button:not(#dark-mode-toggle):not(.hamburger) {
 .card .summary {
   margin: 0.25rem 0 0;
   color: #d2deef;
+}
+
+.card .impact {
+  margin-top: 0.2rem;
+  color: #b9cadf;
+  font-size: 0.92rem;
 }
 
 .card-link {

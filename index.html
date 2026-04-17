@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Marco's Homepage</title>
+  <title>Marco Bonifacio | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
@@ -31,9 +31,8 @@
 
     <ul id="nav-links" class="nav-links">
       <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -50,7 +49,7 @@
       </div>
       <div class="hero-content">
         <h1>Hey, I'm Marco.</h1>
-        <p>I'm a junior developer learning by building projects and improving one step at a time.</p>
+        <p>Junior full-stack developer building real-world web projects with JavaScript, Vue, Node.js, Express, SQL Server, Firebase, and Docker.</p>
       </div>
 
       <div class="cv-actions">
@@ -60,26 +59,25 @@
           target="_blank"
           rel="noopener"
         >
-          Download Software Dev CV
+          Download CV
         </a>
         <div class="cv-secondary-links">
-          <a href="assets/cv/marco-qa-cv.pdf" target="_blank" rel="noopener">QA CV</a>
-          <a href="assets/cv/marco-admin-cv.pdf" target="_blank" rel="noopener">Admin CV</a>
+          <a href="https://github.com/rinq123" target="_blank" rel="noopener">GitHub Profile</a>
         </div>
       </div>
 
-      <p class="hero-role-note">Also open to QA and admin roles.</p>
+      <p class="hero-role-note">Focused on full-stack and software development roles.</p>
     </header>
 
     <section id="about">
       <h2>About Me</h2>
       <div id="about-content">
-        <p class="about-summary">Junior software developer focused on practical full-stack projects, deployment workflows, and steady delivery.</p>
+        <p class="about-summary">Junior full-stack developer with hands-on experience building real-world web projects and turning practical requirements into clean, maintainable systems.</p>
         <ul class="about-points">
-          <li>Build and ship full-stack web apps with Node.js, Express, Vue, SQL Server, and Docker.</li>
-          <li>Implemented a multi-tenant donation platform with tenant-scoped auth (JWT), Stripe payments, and webhook processing.</li>
-          <li>Apply a QA mindset from healthcare operations where data accuracy and compliance are critical.</li>
-          <li>Improve each release through iteration, bug-fixing, and clearer front-end UX.</li>
+          <li>Build full-stack web projects with JavaScript/TypeScript, Vue, Node.js, Express, SQL Server, Firebase, and Docker.</li>
+          <li>Focus on practical systems such as authentication, REST APIs, payment flows, real-time updates, and deployment-oriented setup.</li>
+          <li>Pick up new tools quickly and iterate from rough requirements to reliable, shippable features.</li>
+          <li>Bring an operations mindset from healthcare work where accuracy, reliability, and clear process matter.</li>
         </ul>
       </div>
     </section>
@@ -87,86 +85,59 @@
     <section id="skills">
       <h2>Skills</h2>
       <div class="skills-list">
+        <span>C#</span>
+        <span>Python</span>
+        <span>JavaScript/TypeScript</span>
         <span>HTML</span>
         <span>CSS</span>
-        <span>JavaScript</span>
         <span>Vue 3</span>
         <span>Node.js</span>
         <span>Express</span>
         <span>REST APIs</span>
         <span>JWT Auth</span>
-        <span>MongoDB</span>
         <span>SQL Server</span>
+        <span>MongoDB</span>
         <span>Firebase</span>
-        <span>Docker</span>
-        <span>Stripe API</span>
+        <span>Docker Compose</span>
+        <span>GitHub Actions</span>
+        <span>Stripe</span>
         <span>Git/GitHub</span>
-        <span>Unity(C#)</span>
-        <span>Kotlin</span>
       </div>
     </section>
 
     <section id="projects">
-      <h2>My Projects</h2>
+      <h2>Selected Projects</h2>
       <div class="card-container">
         <div class="card">
-          <a class="card-link" href="https://github.com/rinq123/CatGallery" target="_blank" rel="noopener">
-            <h3>Cat Gallery Web App</h3>
-            <p class="summary">Full-stack web app with secure authentication and social features.</p>
-            <p class="stack">Tech: HTML, CSS, JavaScript, Node.js, Express, MongoDB</p>
+          <a class="card-link" href="https://github.com/rinq123/FundNest" target="_blank" rel="noopener">
+            <h3>FundNest</h3>
+            <p class="summary">Multi-tenant donation platform with public charity pages, tenant admin controls, Stripe test payments, and webhook-driven status updates.</p>
+            <p class="stack">Tech: Vue 3, Node.js, Express, SQL Server, Stripe, JWT, Docker Compose, Vitest</p>
+            <p class="impact">Shows tenant isolation, end-to-end payment flow, and reproducible local setup.</p>
           </a>
         </div>
         <div class="card">
           <a class="card-link" href="https://github.com/rinq123/Gym-Club-Scoring" target="_blank" rel="noopener">
-            <h3>Eclipse Invitational Scoring (Gym Club Scoring)</h3>
-            <p class="summary">Frontend-only scoring system with Firebase Auth and Firestore.</p>
-            <p class="stack">Tech: HTML, CSS, JavaScript, Firebase</p>
+            <h3>Eclipse Invitational Scoring System</h3>
+            <p class="summary">Live gymnastics scoring system with secure admin access, score entry and editing, public scoreboard views, stream displays, and CSV export.</p>
+            <p class="stack">Tech: HTML, CSS, JavaScript, Firebase Authentication, Cloud Firestore, Firebase Hosting</p>
+            <p class="impact">Shows real-time workflow design for admins, judges, public viewers, and large-screen event displays.</p>
           </a>
         </div>
         <div class="card">
-          <a class="card-link" href="https://github.com/rinq123/FundNest" target="_blank" rel="noopener">
-            <h3>FundNest (goDonate-lite)</h3>
-            <p class="summary">Multi-tenant donation platform with Stripe test payments and webhook-driven status updates.</p>
-            <p class="stack">Tech: Vue 3, Node.js, Express, SQL Server, Stripe, Docker Compose</p>
+          <a class="card-link" href="https://github.com/rinq123/CatGallery" target="_blank" rel="noopener">
+            <h3>CatGallery Web App</h3>
+            <p class="summary">Full-stack cat gallery with infinite scroll browsing, favourites, lightbox navigation, random cat facts, and account-based features.</p>
+            <p class="stack">Tech: HTML, CSS, JavaScript, Node.js, Express, MongoDB, express-session, bcryptjs</p>
+            <p class="impact">Demonstrates end-to-end API integration, session-based features, and responsive front-end interactions.</p>
           </a>
         </div>
       </div>
     </section>
 
-    <section id="experience">
-      <h2>Experience</h2>
-      <article class="cv-entry">
-        <h3>Clinic Coordinator & Receptionist - Northampton General Hospital</h3>
-        <p class="cv-meta">Nov 2023 - Present | Northampton, UK</p>
-        <ul>
-          <li>Processed and validated records for 50+ patients per shift, maintaining 100% data accuracy.</li>
-          <li>Organized clinic schedules and workflow handoffs, reducing delays across daily operations.</li>
-          <li>Enforced GDPR and NHS data-handling standards, keeping sensitive records compliant and secure.</li>
-          <li>Resolved front-desk patient and staff queries quickly during peak hours in a high-pressure setting.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section id="education">
-      <h2>Education & Certifications</h2>
-      <article class="cv-entry">
-        <h3>BSc (Hons) Games Programming - University of Northampton</h3>
-        <p class="cv-meta">2022 - 2024</p>
-        <p>Key projects included AI Diplomacy Systems, a Social Networking Mobile App, and Maze Navigation AI.</p>
-      </article>
-      <article class="cv-entry">
-        <h3>A-Levels (AAA) - Abbeyfield School Sixth Form</h3>
-        <p class="cv-meta">2019 - 2022</p>
-      </article>
-      <article class="cv-entry">
-        <h3>Languages</h3>
-        <p class="cv-meta">English (fluent), Tagalog (fluent)</p>
-      </article>
-    </section>
-
     <footer id="contact">
       <h2>Contact</h2>
-      <p>Want to work together or see more? Reach out:</p>
+      <p>Open to junior full-stack and software development roles. Reach out:</p>
       <p class="contact-email">seanmarcobonifacio@gmail.com</p>
       <div class="contact-links">
         <a href="https://www.linkedin.com/in/sean-marco-bonifacio-538286253/" target="_blank" rel="noopener">LinkedIn</a>

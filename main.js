@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* SUBTLE SCROLL REVEALS */
   const revealTargets = document.querySelectorAll(
-    '.hero, section, .card, .cv-entry, .skills-list span, .contact-links a'
+    '.hero, section, .card, .cv-btn, .cv-secondary-links a, .skills-list span, .contact-links a'
   );
 
   revealTargets.forEach(el => {
@@ -76,7 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   setRevealDelay('.card', 70);
-  setRevealDelay('#experience .cv-entry, #education .cv-entry', 90);
   setRevealDelay('.skills-list span', 35);
   setRevealDelay('.contact-links a', 60);
 
