@@ -37,6 +37,32 @@ Files are served from:
 
 ## Selected Projects
 
+### Personal Budget Tracker
+Full-stack personal finance tracker with:
+- user registration and login
+- protected dashboard pages
+- category management
+- transaction CRUD with filtering, sorting, and pagination
+- fixed monthly income/outgoing tracking
+- deployed frontend/API/database setup
+
+Stack:
+- `React`
+- `TypeScript`
+- `Vite`
+- `Node.js`
+- `Express`
+- `Prisma`
+- `PostgreSQL`
+- `Supabase`
+- `JWT`
+- `Docker Compose`
+- `Vitest`
+- `Supertest`
+- `GitHub Actions`
+- `Netlify`
+- `Render`
+
 ### FundNest
 Multi-tenant donation platform with:
 - public charity donation pages
