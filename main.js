@@ -1,8 +1,9 @@
+
+
 document.addEventListener('DOMContentLoaded', () => {
   /* NAV MENU TOGGLE */
   const hamburger = document.querySelector('.hamburger');
-  const navLinks  = document.getElementById('nav-links');
-
+  const navLinks = document.getElementById('nav-links');
   function toggleMenu() {
     const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
     hamburger.setAttribute('aria-expanded', String(!isExpanded));  // Modified: correct aria flag
@@ -21,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   /* LOCAL STORAGE + DARK MODE */
-  const toggleBtn  = document.getElementById('dark-mode-toggle');
-  const body       = document.body;
+  const toggleBtn = document.getElementById('dark-mode-toggle');
+  const body = document.body;
   const storageKey = 'theme';
 
   // 1. Apply stored preference or system default
@@ -61,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* SUBTLE SCROLL REVEALS */
   const revealTargets = document.querySelectorAll(
-    '.hero, section, .card, .cv-btn, .cv-secondary-links a, .skills-list span, .contact-links a'
+    '.hero, section, .card, .cv-btn, .cv-secondary-links a, .skills-list li, .contact-links a'
   );
 
   revealTargets.forEach(el => {
@@ -76,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   setRevealDelay('.card', 70);
-  setRevealDelay('.skills-list span', 35);
+  setRevealDelay('.skills-list li', 35);
   setRevealDelay('.contact-links a', 60);
 
   const prefersReducedMotion = window.matchMedia(
