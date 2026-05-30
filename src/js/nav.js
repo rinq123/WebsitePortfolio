@@ -2,7 +2,9 @@ export function initNav() {
     /* NAV MENU TOGGLE */
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.getElementById('nav-links');
-    
+
+    if(!hamburger || !navLinks) return;
+
     function toggleMenu() {
         const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
         hamburger.setAttribute('aria-expanded', String(!isExpanded));  // Modified: correct aria flag

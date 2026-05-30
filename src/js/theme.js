@@ -4,6 +4,8 @@ export function initTheme() {
     const body = document.body;
     const storageKey = 'theme';
 
+    if(!toggleBtn) return;
+
     // 1. Apply stored preference or system default
     const savedTheme = localStorage.getItem(storageKey);
     if (
@@ -27,7 +29,7 @@ export function initTheme() {
         toggleBtn.textContent = isDark ? 'Light Mode' : 'Dark Mode';
     });
 
-    // 3. Listen for OS preference changes (only if user hasn’t picked)
+    // 3. Listen for OS preference changes (only if user hasn't picked)
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     mediaQuery.addEventListener('change', e => {
         if (!localStorage.getItem(storageKey)) {
