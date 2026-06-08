@@ -39,4 +39,14 @@ export const projects = [
     impact:
       "Demonstrates end-to-end API integration, session-based features, and responsive front-end interactions.",
   },
+  {
+    title: "Brochure Website Demo",
+    href: "https://github.com/rinq123/web",
+    summary:
+      "Multi-page brochure website demo for local businesses, featuring a homepage, about page, features page, gallery, and contact page with a clean responsive layout.",
+    stack:
+      "Astro, HTML, CSS, JavaScript",
+    impact:
+      "Demonstrates reusable layouts, shared site data, responsive brochure-site design, and a client-focused front-end structure for small business websites.",
+  },
 ];
